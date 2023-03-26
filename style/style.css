@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Alkatra', cursive;
+}
+body{
+    background-image: linear-gradient(to left, rgba(0,0,0,0.3), rgba(0,0,0,0.9)), url('../images/nature.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 633px;
+}
+.main-container{
+    width: 35%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 40px;
+    border: 2px solid darkgoldenrod;
+}
+.main-container .user-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.main-container .post-container{
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: grey;
+    margin: 10px 0px;
+}
+.main-container .post-container p{
+    color: lightgray;
+}
+.main-container .post-container h3{
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.main-container .name-state-container{
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.main-container .name-state-container .name-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 2rem;
+    color: lightgray;
+    letter-spacing: 1px;
+}
+.main-container .name-state-container .name-container div{
+    margin: 0px 5px;
+}
+.main-container .name-state-container .name-container .age{
+    font-size: 1.5rem;
+    color: gray;
+}
+.main-container .name-state-container .address-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1rem;
+    color: grey;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.main-container .name-state-container .address-container div{
+    margin: 0px 10px;
+}
+.main-container .date-email-container{
+    width: 100%;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+    padding: 0px 30px;
+}
+.main-container .date-email-container .date-container .birthday-container{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: lightgray;
+    margin: 2px 0px;
+}
+.main-container .date-email-container .date-container .birthday-container .birthday{
+    margin: 0px 10px 0px 0px;
+    width: 25px;
+    height: 25px;
+}
+.main-container .date-email-container .date-container .gender-container .gender{
+    margin: 0px 10px 0px 0px;
+    width: 25px;
+    height: 25px;
+}
+.main-container .date-email-container .email-container .phone-container .phone{
+    margin: 0px 10px 0px 0px;
+    padding: 0px 20px 0px 0px;
+    width: 55px;
+    height: 25px;
+}
+.main-container .date-email-container .email-container .phone-container p{
+    width: 500px;
+    display: flex;
+}
+.main-container .date-email-container .email-container .mail-container .mail{
+    margin: 0px 10px 0px 0px;
+    width: 25px;
+    height: 25px;
+}
+.main-container .date-email-container .date-container .gender-container{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: lightgray;
+    margin: 2px 0px;
+}
+.main-container .date-email-container .email-container .phone-container{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: lightgray;
+    margin: 2px 0px;
+}
+.main-container .date-email-container .email-container .mail-container{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: lightgray;
+    margin: 2px 0px;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    margin: 20px 0px;
+    padding: 5px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    border: none;
+    color: grey;
+    cursor: pointer;
+}
+.btn button:hover{
+    color: darkgoldenrod;
+    outline: 1px solid darkgoldenrod;
+    background: transparent;
+}
+.main-container hr{
+    width: 70%;
+    margin: 0px auto;
+    
+}
